@@ -2,14 +2,16 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.maskapai.pky.objek;
+package objek;
 
 import java.time.LocalDateTime;
+import org.bson.Document;
 
 /**
  *
  * @author ADVAN
  */
+
 public class LogAbsensi {
     private String idLog;
     private String uidKartu;
@@ -18,6 +20,13 @@ public class LogAbsensi {
     
     public LogAbsensi() {
         //
+    }
+    
+    public Document toDocument() {
+    return new Document("idLog", idLog)
+            .append("uidKartu", uidKartu)
+            .append("waktuTap", waktuTap.toString())
+            .append("status", status);
     }
 
     public LogAbsensi(String idLog, String uidKartu, LocalDateTime waktuTap, String status) {
