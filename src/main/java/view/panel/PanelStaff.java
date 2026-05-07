@@ -8,12 +8,12 @@ package view.panel;
  *
  * @author ADVAN
  */
-public class PanelAdmin extends javax.swing.JPanel {
+public class PanelStaff extends javax.swing.JPanel {
 
     /**
-     * Creates new form PanelAdmin
+     * Creates new form PanelStaff
      */
-    public PanelAdmin() {
+    public PanelStaff() {
         initComponents();
     }
 

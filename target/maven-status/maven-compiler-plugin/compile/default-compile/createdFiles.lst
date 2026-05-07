@@ -1,6 +1,12 @@
-objek\StaffMaskapai.class
-view\MainForm$1.class
 database\KoneksiMongo.class
 main\MainFile.class
 objek\LogAbsensi.class
+view\AdminForm.class
 view\MainForm.class
+objek\StaffMaskapai.class
+view\MainForm$1.class
+objek\TesKoneksi.class
+view\AdminMonitoring.class
+view\panel\PanelStaff.class
+view\panel\PanelIdle.class
+view\panel\PanelVerifKedua.class

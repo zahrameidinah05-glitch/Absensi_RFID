@@ -9,9 +9,6 @@ import java.time.LocalDateTime;
 import javax.swing.Timer;
 
 import view.panel.PanelIdle;
-import view.panel.PanelScanning;
-import view.panel.PanelAdmin;
-import view.panel.PanelUser;
 
 /**
  *
@@ -33,9 +30,6 @@ public class MainForm extends javax.swing.JPanel {
 
         // TAMBAH PANEL
         mainPanel.add(new PanelIdle(), "idle");
-        mainPanel.add(new PanelScanning(), "scan");
-        mainPanel.add(new PanelAdmin(), "admin");
-        mainPanel.add(new PanelUser(), "user");
 
         // PANEL AWAL
         cardLayout.show(mainPanel, "idle");
